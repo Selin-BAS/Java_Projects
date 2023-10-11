@@ -73,7 +73,7 @@ public class AdamAsmacaOyunu {
                         "      |\n" +
                         "=========\n"
         };
-
+        //Bu noktada 'kelimeler.txt' isimli ve içinde belli bir sayıda kelime olan dosyaya ihtiyacınız var.
         List<String> wordList= readWordListFromFile("C:\\Users\\LENOVO\\Documents\\kelimeler.txt");
         if(wordList.isEmpty()){
             System.out.println("Kelime listesi boş veya okunamıyor.");
